@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+#div1,#div2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 50px;
+    
+    /* margin: 100x;
+    margin-top: 10px; */
+    
+    
+
+    /* width: 150px;
+    height: 30px; */
+
+}
+#div2{
+    /* margin-left:100px; */
+    /* justify-items: center;
+    align-items: center; */
+    margin-left: 100px;
+    margin-right:auto ;
+}
+.org{
+    border-radius: 1px;
+}
+.cir{
+    border-radius: 3px;
+    box-shadow: 0 0 30px darkred;
+    transition: box-shadow 0.2s ease-in-out;
+
+}
+#k1,#k2,#k3,#k4,#k5,#k6,#k7,#k8,#k9{
+
+    display: inline;
+    background-color:black;
+    
+    color: bisque;
+    
+    text-align: center;
+    
+    padding: 25px;
+    border: 2px solid rgba(0, 0, 0, 0.507);
+    font-size: 36px;
+
+
+}
